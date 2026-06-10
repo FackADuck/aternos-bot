@@ -1,0 +1,6 @@
+[phases.setup]
+nixPkgs = ["chromium", "playwright-driver"]
+
+[variables]
+PLAYWRIGHT_BROWSERS_PATH = "/usr/bin"
+PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH = "/usr/bin/chromium"
